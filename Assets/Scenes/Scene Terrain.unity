@@ -419,18 +419,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.87979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.87979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.87979
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.003872
+      value: 37.009
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 101.88887
+      value: 103.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 34.1416
+      value: 33.889
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
@@ -678,17 +693,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1542397
+      value: 0.9910071
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1542397
+      value: 0.9910071
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1542397
+      value: 0.9910071
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
@@ -698,7 +713,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 120.98
+      value: 120.63
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
