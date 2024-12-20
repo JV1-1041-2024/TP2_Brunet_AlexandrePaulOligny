@@ -20,3 +20,7 @@ https://sketchfab.com/3d-models/old-bridge-293190e5169947c1a374a9ec850264d3
 Low Poly PBR Houses Exteriors FREE Pack
 Kassya
 https://assetstore.unity.com/packages/3d/props/exterior/low-poly-pbr-houses-exteriors-free-pack-266249
+
+Fountain Prop
+Thunderent
+https://assetstore.unity.com/packages/3d/fountain-prop-75912
