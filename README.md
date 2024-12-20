@@ -40,3 +40,7 @@ https://assetstore.unity.com/packages/3d/medieval-windmill-89489
 Lamppost
 MaxDragon
 https://assetstore.unity.com/packages/3d/environments/urban/lamppost-269488
+
+Item Pack: Survival
+Supercyan
+https://assetstore.unity.com/packages/3d/props/item-pack-survival-131598
