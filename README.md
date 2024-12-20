@@ -32,3 +32,7 @@ https://assetstore.unity.com/packages/3d/props/simple-bench-297950
 Simple, Low-Poly Decorative Plant Assets
 Ultrasonic
 https://assetstore.unity.com/packages/3d/vegetation/simple-low-poly-decorative-plant-assets-252714
+
+Medieval Windmill
+Polygrade
+https://assetstore.unity.com/packages/3d/medieval-windmill-89489
