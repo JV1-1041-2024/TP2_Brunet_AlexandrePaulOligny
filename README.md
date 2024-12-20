@@ -28,3 +28,7 @@ https://assetstore.unity.com/packages/3d/fountain-prop-75912
 Simple Bench
 Marpa Studio
 https://assetstore.unity.com/packages/3d/props/simple-bench-297950
+
+Simple, Low-Poly Decorative Plant Assets
+Ultrasonic
+https://assetstore.unity.com/packages/3d/vegetation/simple-low-poly-decorative-plant-assets-252714
