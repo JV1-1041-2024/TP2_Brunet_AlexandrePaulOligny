@@ -24,3 +24,7 @@ https://assetstore.unity.com/packages/3d/props/exterior/low-poly-pbr-houses-exte
 Fountain Prop
 Thunderent
 https://assetstore.unity.com/packages/3d/fountain-prop-75912
+
+Simple Bench
+Marpa Studio
+https://assetstore.unity.com/packages/3d/props/simple-bench-297950
