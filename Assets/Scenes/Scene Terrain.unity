@@ -122,6 +122,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6482704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8934777400606672865, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+    type: 3}
+  m_PrefabInstance: {fileID: 625254401}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6482708
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482704}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f1852c12e717a0478519b97feb3f9d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &17963407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1167,19 +1194,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6286921089584020604, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      propertyPath: m_Range
+      value: 304.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6286921089584020604, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      propertyPath: m_SpotAngle
+      value: 18.553726
+      objectReference: {fileID: 0}
+    - target: {fileID: -6286921089584020604, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 12.7224
+      objectReference: {fileID: 0}
+    - target: {fileID: -6286921089584020604, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 76.28
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_Name
       value: Phare
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -2703738420309038189, guid: a3e2328a4d9771e4fb9aca3cd9edbf78, type: 3}
+    - {fileID: 1857218814609192146, guid: a3e2328a4d9771e4fb9aca3cd9edbf78, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 625254403}
+    - targetCorrespondingSourceObject: {fileID: 8934777400606672865, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6482708}
     - targetCorrespondingSourceObject: {fileID: -1475965069867897284, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       insertIndex: -1
