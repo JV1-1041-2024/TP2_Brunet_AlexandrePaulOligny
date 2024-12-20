@@ -44,3 +44,9 @@ https://assetstore.unity.com/packages/3d/environments/urban/lamppost-269488
 Item Pack: Survival
 Supercyan
 https://assetstore.unity.com/packages/3d/props/item-pack-survival-131598
+
+Ocean Waves
+Sound Effect by <a href="https://pixabay.com/users/gikmultimedia-20862125/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250310">GIK Multimedia</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250310">Pixabay</a>
+
+Wind Chimes
+Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=60654">freesound_community</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=60654">Pixabay</a>
