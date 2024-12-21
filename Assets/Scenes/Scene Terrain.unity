@@ -346,7 +346,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 491402417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &70810614
@@ -439,7 +440,7 @@ GameObject:
   - component: {fileID: 109475660}
   - component: {fileID: 109475659}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: lumiere du phare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,17 +671,7 @@ Transform:
   m_LocalPosition: {x: 163.9, y: 99.6, z: 183.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 907513859}
-  - {fileID: 527353517}
-  - {fileID: 1906634527}
-  - {fileID: 2004867749}
-  - {fileID: 215734285}
-  - {fileID: 704956043}
-  - {fileID: 975431070}
-  - {fileID: 1915749344}
-  - {fileID: 2016215876}
-  - {fileID: 654591650}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &154154742
@@ -1265,11 +1256,11 @@ Transform:
   m_GameObject: {fileID: 215734283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -108.09999, y: 0, z: -94.8}
+  m_LocalPosition: {x: 55.800003, y: 99.6, z: 88.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223287124
 GameObject:
@@ -2136,12 +2127,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1490075734}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0975384
+      value: 1.0975385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
@@ -2151,7 +2142,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0975384
+      value: 1.0975385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
@@ -2186,7 +2177,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
@@ -2283,6 +2274,11 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7904900235000225645, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+        type: 3}
+      propertyPath: m_Name
+      value: Mesh du bateau
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 69f8d14dfbf57924ca5b3aad96ac4a24, type: 3}
@@ -2306,6 +2302,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 831620052}
   m_SourcePrefab: {fileID: 100100000, guid: 69f8d14dfbf57924ca5b3aad96ac4a24, type: 3}
+--- !u!4 &446892464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+    type: 3}
+  m_PrefabInstance: {fileID: 446892463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &464285686 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8816282341396182593, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
@@ -2708,7 +2710,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 62923204}
   m_LocalEulerAnglesHint: {x: -296.83398, y: -216.618, z: -128.603}
 --- !u!114 &491402418
 MonoBehaviour:
@@ -3064,7 +3066,7 @@ GameObject:
   - component: {fileID: 527353517}
   - component: {fileID: 527353516}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Bulle sonore des vagues 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3175,11 +3177,11 @@ Transform:
   m_GameObject: {fileID: 527353515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.800003, y: 0, z: -75.19}
+  m_LocalPosition: {x: 174.7, y: 99.6, z: 108.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572088122
 GameObject:
@@ -3357,7 +3359,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
@@ -3489,10 +3491,15 @@ PrefabInstance:
       propertyPath: m_BounceIntensity
       value: 76.28
       objectReference: {fileID: 0}
+    - target: {fileID: -1475965069867897284, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+        type: 3}
+      propertyPath: m_Name
+      value: Corps du phare
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
       propertyPath: m_Name
-      value: Phare
+      value: Phare avec lumiere
       objectReference: {fileID: 0}
     - target: {fileID: 8934777400606672865, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
         type: 3}
@@ -3522,6 +3529,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1907153106}
   m_SourcePrefab: {fileID: 100100000, guid: a3e2328a4d9771e4fb9aca3cd9edbf78, type: 3}
+--- !u!4 &625254402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a3e2328a4d9771e4fb9aca3cd9edbf78,
+    type: 3}
+  m_PrefabInstance: {fileID: 625254401}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &625254403
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3800,11 +3813,11 @@ Transform:
   m_GameObject: {fileID: 654591648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -68, y: 0, z: 5.599991}
+  m_LocalPosition: {x: 95.899994, y: 99.6, z: 188.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667430359
 GameObject:
@@ -4166,11 +4179,11 @@ Transform:
   m_GameObject: {fileID: 704956041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -163, y: 0, z: -77.600006}
+  m_LocalPosition: {x: 0.8999939, y: 99.6, z: 105.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &725321845
 GameObject:
@@ -5017,7 +5030,7 @@ GameObject:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: Volume global de base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5053,7 +5066,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754413461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &850797975
 PrefabInstance:
@@ -5664,7 +5677,7 @@ GameObject:
   - component: {fileID: 907513859}
   - component: {fileID: 907513858}
   m_Layer: 0
-  m_Name: Audio Source (14)
+  m_Name: Bulle sonore des vagues 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5775,11 +5788,11 @@ Transform:
   m_GameObject: {fileID: 907513857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.199997, y: 0, z: 5.599991}
+  m_LocalPosition: {x: 119.7, y: 99.6, z: 188.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919946338
 GameObject:
@@ -6644,11 +6657,11 @@ Transform:
   m_GameObject: {fileID: 975431068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -162.29999, y: 0, z: -48.5}
+  m_LocalPosition: {x: 1.6000061, y: 99.6, z: 134.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &977388936
 PrefabInstance:
@@ -7425,7 +7438,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 625254402}
   m_Father: {fileID: 2124524989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1146282316
@@ -8819,7 +8833,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 446892464}
   m_Father: {fileID: 2124524989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1495032929
@@ -9651,7 +9666,7 @@ Transform:
   m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1926292164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650586436
 GameObject:
@@ -10414,7 +10429,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 832575519}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1758992280
@@ -10762,7 +10778,7 @@ Transform:
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1926292164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1790473489
 MeshCollider:
@@ -11393,7 +11409,7 @@ GameObject:
   - component: {fileID: 1906634527}
   - component: {fileID: 1906634526}
   m_Layer: 0
-  m_Name: Audio Source (9)
+  m_Name: Bulle sonore des vagues 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11504,11 +11520,11 @@ Transform:
   m_GameObject: {fileID: 1906634525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -154.1, y: -26.699997, z: -174.8}
+  m_LocalPosition: {x: 9.799988, y: 72.9, z: 8.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907153102 stripped
 GameObject:
@@ -11660,11 +11676,11 @@ Transform:
   m_GameObject: {fileID: 1915749342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -139.79999, y: 0, z: 3}
+  m_LocalPosition: {x: 24.100006, y: 99.6, z: 186.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1917610694
 PrefabInstance:
@@ -11834,7 +11850,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1790473488}
+  - {fileID: 1641574783}
+  - {fileID: 1953728263}
   m_Father: {fileID: 2124524989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1927823115
@@ -12066,7 +12085,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1926292164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &1953728264
 TerrainCollider:
@@ -12463,7 +12482,7 @@ GameObject:
   - component: {fileID: 2004867749}
   - component: {fileID: 2004867748}
   m_Layer: 0
-  m_Name: Audio Source (1)
+  m_Name: Bulle sonore des vagues 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12574,11 +12593,11 @@ Transform:
   m_GameObject: {fileID: 2004867747}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.899994, y: 0, z: -94.600006}
+  m_LocalPosition: {x: 127, y: 99.6, z: 88.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2016215874
 GameObject:
@@ -12702,11 +12721,11 @@ Transform:
   m_GameObject: {fileID: 2016215874}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -119.49999, y: 0, z: 3}
+  m_LocalPosition: {x: 44.4, y: 99.6, z: 186.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 109851612}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2022918864
 GameObject:
@@ -14045,13 +14064,16 @@ SceneRoots:
   - {fileID: 2124524989}
   - {fileID: 494332832}
   - {fileID: 1744795150}
-  - {fileID: 625254401}
-  - {fileID: 446892463}
-  - {fileID: 1641574783}
-  - {fileID: 1953728263}
-  - {fileID: 1790473488}
-  - {fileID: 832575519}
-  - {fileID: 491402417}
+  - {fileID: 907513859}
+  - {fileID: 527353517}
+  - {fileID: 1906634527}
+  - {fileID: 2004867749}
+  - {fileID: 215734285}
+  - {fileID: 704956043}
+  - {fileID: 975431070}
+  - {fileID: 1915749344}
+  - {fileID: 2016215876}
+  - {fileID: 654591650}
   - {fileID: 109851612}
   - {fileID: 158561976}
   - {fileID: 303810706}
