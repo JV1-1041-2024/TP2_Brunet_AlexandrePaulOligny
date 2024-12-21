@@ -318,6 +318,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 17963407}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &60834053 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6556307555316582679, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1994588309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &62923203
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +355,69 @@ Transform:
   m_Children:
   - {fileID: 491402417}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &63900514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63900515}
+  m_Layer: 0
+  m_Name: =====Clip Audio=====
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63900515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63900514}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.9, y: 99.6, z: 74.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 907513859}
+  - {fileID: 527353517}
+  - {fileID: 1906634527}
+  - {fileID: 2004867749}
+  - {fileID: 215734285}
+  - {fileID: 704956043}
+  - {fileID: 975431070}
+  - {fileID: 1915749344}
+  - {fileID: 2016215876}
+  - {fileID: 654591650}
+  - {fileID: 109851612}
+  - {fileID: 158561976}
+  - {fileID: 1408879893}
+  - {fileID: 1841276033}
+  - {fileID: 1726906625}
+  - {fileID: 630321537}
+  - {fileID: 1404714668}
+  - {fileID: 490717252}
+  - {fileID: 901965736}
+  - {fileID: 932171925}
+  - {fileID: 2045083427}
+  - {fileID: 440114577}
+  - {fileID: 303810706}
+  - {fileID: 1723589779}
+  - {fileID: 2065675611}
+  - {fileID: 1090649473}
+  - {fileID: 223287125}
+  - {fileID: 488372010}
+  - {fileID: 1737784025}
+  - {fileID: 919946339}
+  - {fileID: 798719893}
+  - {fileID: 496843153}
+  m_Father: {fileID: 1754413461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &70810614
 GameObject:
@@ -557,7 +626,7 @@ GameObject:
   - component: {fileID: 109851612}
   - component: {fileID: 109851611}
   m_Layer: 0
-  m_Name: Audio Source (16)
+  m_Name: Bulle sonore des vagues 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,11 +737,11 @@ Transform:
   m_GameObject: {fileID: 109851610}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 163.9, y: 99.6, z: 183.3}
+  m_LocalPosition: {x: 97, y: 0, z: 109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &154154742
 PrefabInstance:
@@ -768,7 +837,7 @@ GameObject:
   - component: {fileID: 158561976}
   - component: {fileID: 158561975}
   m_Layer: 0
-  m_Name: Audio Source (18)
+  m_Name: Bulle sonore des vagues 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,11 +948,11 @@ Transform:
   m_GameObject: {fileID: 158561974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 173.6, y: 99.6, z: 145.2}
+  m_LocalPosition: {x: 106.700005, y: 0, z: 70.899994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &195969546
 PrefabInstance:
@@ -1145,7 +1214,7 @@ GameObject:
   - component: {fileID: 215734285}
   - component: {fileID: 215734284}
   m_Layer: 0
-  m_Name: Audio Source (5)
+  m_Name: Bulle sonore des vagues 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1256,12 +1325,18 @@ Transform:
   m_GameObject: {fileID: 215734283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.800003, y: 99.6, z: 88.5}
+  m_LocalPosition: {x: -11.099998, y: 0, z: 14.199997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &222326962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1917610694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &223287124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1348,7 @@ GameObject:
   - component: {fileID: 223287125}
   - component: {fileID: 223287126}
   m_Layer: 0
-  m_Name: Audio Source (33)
+  m_Name: Bulle sonore du vent 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1288,11 +1363,11 @@ Transform:
   m_GameObject: {fileID: 223287124}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.1, y: 162.5, z: 50}
+  m_LocalPosition: {x: 123.200005, y: 62.9, z: -24.300003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &223287126
 AudioSource:
@@ -1396,7 +1471,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 2538143777287433973, guid: b8118514584b6a941ac198910e73f05f,
         type: 3}
@@ -1466,7 +1541,7 @@ PrefabInstance:
     - target: {fileID: 2914564522534876239, guid: b8118514584b6a941ac198910e73f05f,
         type: 3}
       propertyPath: m_Name
-      value: cottage_16
+      value: Maison Brique Rouge
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1488,7 +1563,7 @@ GameObject:
   - component: {fileID: 303810706}
   - component: {fileID: 303810707}
   m_Layer: 0
-  m_Name: Audio Source (21)
+  m_Name: "Ambiance foresti\xE8re bruit bulle 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1503,11 +1578,11 @@ Transform:
   m_GameObject: {fileID: 303810705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 76.54, y: 106.84, z: 151.9}
+  m_LocalPosition: {x: 9.639999, y: 7.239998, z: 77.59999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &303810707
 AudioSource:
@@ -2003,7 +2078,7 @@ GameObject:
   - component: {fileID: 440114577}
   - component: {fileID: 440114576}
   m_Layer: 0
-  m_Name: Audio Source (22)
+  m_Name: Bulle sonore des vagues 22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2114,12 +2189,11 @@ Transform:
   m_GameObject: {fileID: 440114575}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 199.4, y: 99.6, z: 77}
+  m_LocalPosition: {x: 132.5, y: 0, z: 2.699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1408879893}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &446892463
 PrefabInstance:
@@ -2287,7 +2361,11 @@ PrefabInstance:
     - {fileID: 640199417312129790, guid: 69f8d14dfbf57924ca5b3aad96ac4a24, type: 3}
     - {fileID: -2694057786604351553, guid: 69f8d14dfbf57924ca5b3aad96ac4a24, type: 3}
     - {fileID: -8177674591550235431, guid: 69f8d14dfbf57924ca5b3aad96ac4a24, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1769001603}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 69f8d14dfbf57924ca5b3aad96ac4a24,
         type: 3}
@@ -2336,6 +2414,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 9728e7820c7dead4d82aedd7a55518ea, type: 3}
+--- !u!4 &464285693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8147692017406160123, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
+    type: 3}
+  m_PrefabInstance: {fileID: 745526501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &475637488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2434,7 +2518,7 @@ GameObject:
   - component: {fileID: 488372010}
   - component: {fileID: 488372011}
   m_Layer: 0
-  m_Name: Audio Source (34)
+  m_Name: Bulle sonore du vent 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2449,11 +2533,11 @@ Transform:
   m_GameObject: {fileID: 488372009}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.6, y: 163.8, z: 142.1}
+  m_LocalPosition: {x: -33.300003, y: 64.200005, z: 67.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &488372011
 AudioSource:
@@ -2562,7 +2646,7 @@ GameObject:
   - component: {fileID: 490717252}
   - component: {fileID: 490717251}
   m_Layer: 0
-  m_Name: Audio Source (20)
+  m_Name: Bulle sonore des vagues 18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2673,11 +2757,11 @@ Transform:
   m_GameObject: {fileID: 490717250}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 212.7, y: 99.6, z: 169.8}
+  m_LocalPosition: {x: 145.79999, y: 0, z: 95.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &491402416
 GameObject:
@@ -2839,7 +2923,7 @@ GameObject:
   - component: {fileID: 496843153}
   - component: {fileID: 496843154}
   m_Layer: 0
-  m_Name: Audio Source (36)
+  m_Name: Musique 2d AP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2854,11 +2938,11 @@ Transform:
   m_GameObject: {fileID: 496843152}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.9, y: 99.6, z: 74.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &496843154
 AudioSource:
@@ -2879,7 +2963,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0.65
   MinDistance: 18.1
   MaxDistance: 187.4397
   Pan2D: 0
@@ -3177,11 +3261,11 @@ Transform:
   m_GameObject: {fileID: 527353515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 174.7, y: 99.6, z: 108.11}
+  m_LocalPosition: {x: 107.799995, y: 0, z: 33.809998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &572088122
 GameObject:
@@ -3195,7 +3279,7 @@ GameObject:
   - component: {fileID: 572088124}
   - component: {fileID: 572088123}
   m_Layer: 0
-  m_Name: Box Volume
+  m_Name: Teinte bleue eau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3252,7 +3336,7 @@ Transform:
   m_LocalScale: {x: 219.35551, y: 92.570114, z: 208.63008}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754413461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &596857633 stripped
 GameObject:
@@ -3282,6 +3366,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 75e4e77c4b1d14943ac6763c308f8601, type: 3}
+--- !u!4 &596857640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2538143777287433973, guid: b8118514584b6a941ac198910e73f05f,
+    type: 3}
+  m_PrefabInstance: {fileID: 244657953}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &610710417
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,7 +3384,7 @@ GameObject:
   - component: {fileID: 610710420}
   - component: {fileID: 610710419}
   m_Layer: 0
-  m_Name: Box Volume (2)
+  m_Name: Saturation Foret 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3313,7 +3403,7 @@ Transform:
   m_LocalScale: {x: 63.055447, y: 20.88502, z: 47.174633}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754413461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &610710419
 MonoBehaviour:
@@ -3568,7 +3658,7 @@ GameObject:
   - component: {fileID: 630321537}
   - component: {fileID: 630321536}
   m_Layer: 0
-  m_Name: Audio Source (27)
+  m_Name: Bulle sonore des vagues 16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3679,11 +3769,11 @@ Transform:
   m_GameObject: {fileID: 630321535}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.6, y: 99.6, z: 18.6}
+  m_LocalPosition: {x: 62.700005, y: 0, z: -55.700005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &644553970 stripped
 Transform:
@@ -3702,7 +3792,7 @@ GameObject:
   - component: {fileID: 654591650}
   - component: {fileID: 654591649}
   m_Layer: 0
-  m_Name: Audio Source (13)
+  m_Name: Bulle sonore des vagues 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3813,11 +3903,11 @@ Transform:
   m_GameObject: {fileID: 654591648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 95.899994, y: 99.6, z: 188.9}
+  m_LocalPosition: {x: 29, y: 0, z: 114.59999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667430359
 GameObject:
@@ -4068,7 +4158,7 @@ GameObject:
   - component: {fileID: 704956043}
   - component: {fileID: 704956042}
   m_Layer: 0
-  m_Name: Audio Source (7)
+  m_Name: Bulle sonore des vagues 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4179,11 +4269,11 @@ Transform:
   m_GameObject: {fileID: 704956041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8999939, y: 99.6, z: 105.7}
+  m_LocalPosition: {x: -66, y: 0, z: 31.399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &725321845
 GameObject:
@@ -4460,7 +4550,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 8147692017406160123, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
         type: 3}
@@ -4500,7 +4590,7 @@ PrefabInstance:
     - target: {fileID: 8147692017406160123, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8147692017406160123, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
         type: 3}
@@ -4530,7 +4620,7 @@ PrefabInstance:
     - target: {fileID: 8816282341396182593, guid: 60fb4d81fe48ef44e9e01f10a9b49708,
         type: 3}
       propertyPath: m_Name
-      value: cottage_11
+      value: Maison Jaune
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4734,7 +4824,7 @@ GameObject:
   - component: {fileID: 798719893}
   - component: {fileID: 798719892}
   m_Layer: 0
-  m_Name: Audio Source (19)
+  m_Name: Musique de la radio du village
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4845,11 +4935,11 @@ Transform:
   m_GameObject: {fileID: 798719891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 115.7, y: 116.09, z: 153.38}
+  m_LocalPosition: {x: 48.799995, y: 16.489998, z: 79.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &805157742
 GameObject:
@@ -5549,7 +5639,7 @@ GameObject:
   - component: {fileID: 901965736}
   - component: {fileID: 901965735}
   m_Layer: 0
-  m_Name: Audio Source (24)
+  m_Name: Bulle sonore des vagues 19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5660,11 +5750,11 @@ Transform:
   m_GameObject: {fileID: 901965734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 190.7, y: 99.6, z: 24.8}
+  m_LocalPosition: {x: 123.799995, y: 0, z: -49.500004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &907513857
 GameObject:
@@ -5788,11 +5878,11 @@ Transform:
   m_GameObject: {fileID: 907513857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.7, y: 99.6, z: 188.9}
+  m_LocalPosition: {x: 52.799995, y: 0, z: 114.59999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919946338
 GameObject:
@@ -5805,7 +5895,7 @@ GameObject:
   - component: {fileID: 919946339}
   - component: {fileID: 919946340}
   m_Layer: 0
-  m_Name: Audio Source (28)
+  m_Name: Bulle de bruit dans le village
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5820,11 +5910,11 @@ Transform:
   m_GameObject: {fileID: 919946338}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.58, y: 106.84, z: 148.65}
+  m_LocalPosition: {x: 54.68, y: 7.239998, z: 74.34999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &919946340
 AudioSource:
@@ -5933,7 +6023,7 @@ GameObject:
   - component: {fileID: 932171925}
   - component: {fileID: 932171924}
   m_Layer: 0
-  m_Name: Audio Source (25)
+  m_Name: Bulle sonore des vagues 20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6044,11 +6134,11 @@ Transform:
   m_GameObject: {fileID: 932171923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 164.9, y: 99.6, z: 8.299999}
+  m_LocalPosition: {x: 98, y: 0, z: -66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &932907625
 GameObject:
@@ -6165,6 +6255,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c44073f70ad82c54ea130d5d1147f18a, type: 3}
+--- !u!4 &940978915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1942057687}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &945547058
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,7 +6642,7 @@ GameObject:
   - component: {fileID: 975431070}
   - component: {fileID: 975431069}
   m_Layer: 0
-  m_Name: Audio Source (8)
+  m_Name: Bulle sonore des vagues 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6657,11 +6753,11 @@ Transform:
   m_GameObject: {fileID: 975431068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6000061, y: 99.6, z: 134.8}
+  m_LocalPosition: {x: -65.299995, y: 0, z: 60.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &977388936
 PrefabInstance:
@@ -7036,7 +7132,7 @@ GameObject:
   - component: {fileID: 1090649473}
   - component: {fileID: 1090649474}
   m_Layer: 0
-  m_Name: Audio Source (32)
+  m_Name: "Ambiance foresti\xE8re bruit bulle 4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7051,11 +7147,11 @@ Transform:
   m_GameObject: {fileID: 1090649472}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.7, y: 106.84, z: 69.9}
+  m_LocalPosition: {x: 110.799995, y: 7.239998, z: -4.4000015}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1090649474
 AudioSource:
@@ -7440,6 +7536,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 625254402}
+  - {fileID: 1951530855}
+  - {fileID: 1319401073}
+  - {fileID: 596857640}
+  - {fileID: 464285693}
+  - {fileID: 1750464062}
+  - {fileID: 1250225097}
   m_Father: {fileID: 2124524989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1146282316
@@ -7454,7 +7556,7 @@ GameObject:
   - component: {fileID: 1146282319}
   - component: {fileID: 1146282318}
   m_Layer: 0
-  m_Name: Box Volume (1)
+  m_Name: Saturation Foret 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7473,7 +7575,7 @@ Transform:
   m_LocalScale: {x: 63.055447, y: 20.88502, z: 47.174633}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1754413461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1146282318
 MonoBehaviour:
@@ -7523,7 +7625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149829699}
   m_Layer: 0
-  m_Name: Teleporter (2)
+  m_Name: "T\xE9l\xE9porteur 3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7544,7 +7646,7 @@ Transform:
   m_Children:
   - {fileID: 1820745800}
   - {fileID: 1495032930}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1744795150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1159974534
 PrefabInstance:
@@ -7633,6 +7735,12 @@ PrefabInstance:
       addedObject: {fileID: 1563348459}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01ee531e24915840b66e817f1e6919d, type: 3}
+--- !u!4 &1160031979 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1635965115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1163644629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8066,6 +8174,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: a4bcc5817025f0348b6f2b044af5f759, type: 3}
+--- !u!4 &1250225097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1549014978153237267, guid: 5683c46d34d83e44ca4b4c17c219a189,
+    type: 3}
+  m_PrefabInstance: {fileID: 2054393244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1271590454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8307,6 +8421,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 56013272034cd9e44b19e65113caf480, type: 3}
+--- !u!4 &1319401073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4306142541066501740, guid: 008c74b90ff9867449bb82a5e358afec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1760320514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1386709094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8392,7 +8512,7 @@ GameObject:
   - component: {fileID: 1404714668}
   - component: {fileID: 1404714667}
   m_Layer: 0
-  m_Name: Audio Source (26)
+  m_Name: Bulle sonore des vagues 17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8503,11 +8623,11 @@ Transform:
   m_GameObject: {fileID: 1404714666}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 151, y: 99.6, z: 10.1}
+  m_LocalPosition: {x: 84.1, y: 0, z: -64.200005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408879891
 GameObject:
@@ -8520,7 +8640,7 @@ GameObject:
   - component: {fileID: 1408879893}
   - component: {fileID: 1408879892}
   m_Layer: 0
-  m_Name: Audio Source (19)
+  m_Name: Bulle sonore des vagues 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8631,11 +8751,11 @@ Transform:
   m_GameObject: {fileID: 1408879891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.300003, y: 0, z: 72.899994}
+  m_LocalPosition: {x: 138.79999, y: 0, z: 75.59999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 440114577}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1435232128
 GameObject:
@@ -9496,7 +9616,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1744795150}
     m_Modifications:
     - target: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
@@ -9551,7 +9671,7 @@ PrefabInstance:
     - target: {fileID: 3744133877081091469, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
       propertyPath: m_Name
-      value: Magic circle (2)
+      value: Cercle Magique Ile Principale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9963,7 +10083,7 @@ GameObject:
   - component: {fileID: 1723589779}
   - component: {fileID: 1723589780}
   m_Layer: 0
-  m_Name: Audio Source (24)
+  m_Name: "Ambiance foresti\xE8re bruit bulle 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9978,11 +10098,11 @@ Transform:
   m_GameObject: {fileID: 1723589778}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 127.4, y: 106.84, z: 128.66}
+  m_LocalPosition: {x: 60.5, y: 7.239998, z: 54.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1723589780
 AudioSource:
@@ -10091,7 +10211,7 @@ GameObject:
   - component: {fileID: 1726906625}
   - component: {fileID: 1726906624}
   m_Layer: 0
-  m_Name: Audio Source (29)
+  m_Name: Bulle sonore des vagues 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10202,11 +10322,11 @@ Transform:
   m_GameObject: {fileID: 1726906623}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 82.9, y: 99.6, z: 51.7}
+  m_LocalPosition: {x: 16, y: 0, z: -22.600002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1737784024
 GameObject:
@@ -10219,7 +10339,7 @@ GameObject:
   - component: {fileID: 1737784025}
   - component: {fileID: 1737784026}
   m_Layer: 0
-  m_Name: Audio Source (35)
+  m_Name: "Bulle de bruit de moulin \xE0 vent"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10234,11 +10354,11 @@ Transform:
   m_GameObject: {fileID: 1737784024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 88.3, y: 127.79, z: 80.8}
+  m_LocalPosition: {x: 21.400002, y: 28.190002, z: 6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1737784026
 AudioSource:
@@ -10364,7 +10484,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4841713887488226560}
+  - {fileID: 1927823116}
+  - {fileID: 1149829699}
+  - {fileID: 940978915}
+  - {fileID: 1160031979}
+  - {fileID: 222326962}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1747689302 stripped
@@ -10401,6 +10527,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: fcfe5eb3800a73b49ad12fbdd6466b02, type: 3}
+--- !u!4 &1750464062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8914395570946088761, guid: 0b3848babcb3ad64aba47e54cdd659c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2115992466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1754413460
 GameObject:
   m_ObjectHideFlags: 0
@@ -10430,7 +10562,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 63900515}
   - {fileID: 832575519}
+  - {fileID: 572088125}
+  - {fileID: 1146282317}
+  - {fileID: 610710418}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1758992280
@@ -10513,17 +10649,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 3497517347051611350, guid: 008c74b90ff9867449bb82a5e358afec,
         type: 3}
       propertyPath: m_Name
-      value: cottage_24
+      value: Maison Grise
       objectReference: {fileID: 0}
     - target: {fileID: 4306142541066501740, guid: 008c74b90ff9867449bb82a5e358afec,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8591027
+      value: 0.8591028
       objectReference: {fileID: 0}
     - target: {fileID: 4306142541066501740, guid: 008c74b90ff9867449bb82a5e358afec,
         type: 3}
@@ -10533,7 +10669,7 @@ PrefabInstance:
     - target: {fileID: 4306142541066501740, guid: 008c74b90ff9867449bb82a5e358afec,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8591027
+      value: 0.8591028
       objectReference: {fileID: 0}
     - target: {fileID: 4306142541066501740, guid: 008c74b90ff9867449bb82a5e358afec,
         type: 3}
@@ -10605,7 +10741,7 @@ GameObject:
   - component: {fileID: 1769001603}
   - component: {fileID: 1769001602}
   m_Layer: 0
-  m_Name: Spline
+  m_Name: Chemin Bateau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10739,12 +10875,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769001601}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.541718, y: 102.43, z: 43.908325}
-  m_LocalScale: {x: 35.471, y: 35.471, z: 35.471}
+  m_LocalRotation: {x: -0, y: 0.7085622, z: -0, w: 0.70564836}
+  m_LocalPosition: {x: 5.7913613, y: 0.027332794, z: -40.27038}
+  m_LocalScale: {x: 32.318684, y: 32.3187, z: 32.318684}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 446892464}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1790473487
 GameObject:
@@ -10891,12 +11027,12 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 319838213194919078, guid: b6ba1e2c1809811409328cf269fee590,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.86819774
+      value: 0.8681977
       objectReference: {fileID: 0}
     - target: {fileID: 319838213194919078, guid: b6ba1e2c1809811409328cf269fee590,
         type: 3}
@@ -10961,7 +11097,7 @@ PrefabInstance:
     - target: {fileID: 1097641932171277852, guid: b6ba1e2c1809811409328cf269fee590,
         type: 3}
       propertyPath: m_Name
-      value: cottage_35
+      value: Maison Bleue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10979,7 +11115,7 @@ GameObject:
   - component: {fileID: 1841276033}
   - component: {fileID: 1841276032}
   m_Layer: 0
-  m_Name: Audio Source (31)
+  m_Name: Bulle sonore des vagues 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11090,11 +11226,11 @@ Transform:
   m_GameObject: {fileID: 1841276031}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.9, y: 99.6, z: 74.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852207196
 GameObject:
@@ -11225,7 +11361,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 60834053}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1889970747
@@ -11520,11 +11657,11 @@ Transform:
   m_GameObject: {fileID: 1906634525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.799988, y: 72.9, z: 8.5}
+  m_LocalPosition: {x: -57.100014, y: -26.699997, z: -65.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1907153102 stripped
 GameObject:
@@ -11565,7 +11702,7 @@ GameObject:
   - component: {fileID: 1915749344}
   - component: {fileID: 1915749343}
   m_Layer: 0
-  m_Name: Audio Source (10)
+  m_Name: Bulle sonore des vagues 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11676,11 +11813,11 @@ Transform:
   m_GameObject: {fileID: 1915749342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.100006, y: 99.6, z: 186.3}
+  m_LocalPosition: {x: -42.799995, y: 0, z: 112}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1917610694
 PrefabInstance:
@@ -11688,7 +11825,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1744795150}
     m_Modifications:
     - target: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
@@ -11743,7 +11880,7 @@ PrefabInstance:
     - target: {fileID: 3744133877081091469, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
       propertyPath: m_Name
-      value: Magic circle (1)
+      value: Cercle Magique Ile Phare
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11866,7 +12003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1927823116}
   m_Layer: 0
-  m_Name: Teleporter (1)
+  m_Name: "T\xE9l\xE9porteur 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11887,7 +12024,7 @@ Transform:
   m_Children:
   - {fileID: 79776728}
   - {fileID: 70810615}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1744795150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1929346654
 PrefabInstance:
@@ -11988,7 +12125,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1744795150}
     m_Modifications:
     - target: {fileID: 3650638188812647480, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
@@ -12043,7 +12180,7 @@ PrefabInstance:
     - target: {fileID: 3744133877081091469, guid: a2a060732547fe64581bb0cb3c2bdf1d,
         type: 3}
       propertyPath: m_Name
-      value: Magic circle
+      value: Cercle Magique Ile Plage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12054,6 +12191,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1545733933}
   m_SourcePrefab: {fileID: 100100000, guid: a2a060732547fe64581bb0cb3c2bdf1d, type: 3}
+--- !u!4 &1951530855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 319838213194919078, guid: b6ba1e2c1809811409328cf269fee590,
+    type: 3}
+  m_PrefabInstance: {fileID: 1831500134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1953728262
 GameObject:
   m_ObjectHideFlags: 0
@@ -12277,7 +12420,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1878647571}
     m_Modifications:
     - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
         type: 3}
@@ -12457,7 +12600,7 @@ PrefabInstance:
     - target: {fileID: 7094977340588366727, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
         type: 3}
       propertyPath: m_Name
-      value: NestedParent_Unpack
+      value: Personnage Joueur
       objectReference: {fileID: 0}
     - target: {fileID: 7094977340588366727, guid: 035bf1ba97d19214580cfe6f5a29fdc3,
         type: 3}
@@ -12593,11 +12736,11 @@ Transform:
   m_GameObject: {fileID: 2004867747}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 127, y: 99.6, z: 88.7}
+  m_LocalPosition: {x: 60.1, y: 0, z: 14.399994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2016215874
 GameObject:
@@ -12610,7 +12753,7 @@ GameObject:
   - component: {fileID: 2016215876}
   - component: {fileID: 2016215875}
   m_Layer: 0
-  m_Name: Audio Source (11)
+  m_Name: Bulle sonore des vagues 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12721,11 +12864,11 @@ Transform:
   m_GameObject: {fileID: 2016215874}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.4, y: 99.6, z: 186.3}
+  m_LocalPosition: {x: -22.5, y: 0, z: 112}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2022918864
 GameObject:
@@ -12769,7 +12912,7 @@ GameObject:
   - component: {fileID: 2045083427}
   - component: {fileID: 2045083426}
   m_Layer: 0
-  m_Name: Audio Source (23)
+  m_Name: Bulle sonore des vagues 21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12880,11 +13023,11 @@ Transform:
   m_GameObject: {fileID: 2045083425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 199.4, y: 99.6, z: 49.299995}
+  m_LocalPosition: {x: 132.5, y: 0, z: -25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2046118440 stripped
 Transform:
@@ -12898,7 +13041,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 1549014978153237267, guid: 5683c46d34d83e44ca4b4c17c219a189,
         type: 3}
@@ -12938,7 +13081,7 @@ PrefabInstance:
     - target: {fileID: 1549014978153237267, guid: 5683c46d34d83e44ca4b4c17c219a189,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1549014978153237267, guid: 5683c46d34d83e44ca4b4c17c219a189,
         type: 3}
@@ -12968,7 +13111,7 @@ PrefabInstance:
     - target: {fileID: 2176615513489478057, guid: 5683c46d34d83e44ca4b4c17c219a189,
         type: 3}
       propertyPath: m_Name
-      value: cottage_2
+      value: Maison Rouge
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12990,7 +13133,7 @@ GameObject:
   - component: {fileID: 2065675611}
   - component: {fileID: 2065675612}
   m_Layer: 0
-  m_Name: Audio Source (30)
+  m_Name: "Ambiance foresti\xE8re bruit bulle 3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13005,11 +13148,11 @@ Transform:
   m_GameObject: {fileID: 2065675610}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 130.1, y: 106.84, z: 53.8}
+  m_LocalPosition: {x: 63.200005, y: 7.239998, z: -20.500004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 63900515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2065675612
 AudioSource:
@@ -13434,17 +13577,17 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1141086663}
     m_Modifications:
     - target: {fileID: 8141834289055450499, guid: 0b3848babcb3ad64aba47e54cdd659c7,
         type: 3}
       propertyPath: m_Name
-      value: cottage_3
+      value: Maison Cyan
       objectReference: {fileID: 0}
     - target: {fileID: 8914395570946088761, guid: 0b3848babcb3ad64aba47e54cdd659c7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.95351523
+      value: 0.9535153
       objectReference: {fileID: 0}
     - target: {fileID: 8914395570946088761, guid: 0b3848babcb3ad64aba47e54cdd659c7,
         type: 3}
@@ -13454,7 +13597,7 @@ PrefabInstance:
     - target: {fileID: 8914395570946088761, guid: 0b3848babcb3ad64aba47e54cdd659c7,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.95351523
+      value: 0.9535153
       objectReference: {fileID: 0}
     - target: {fileID: 8914395570946088761, guid: 0b3848babcb3ad64aba47e54cdd659c7,
         type: 3}
@@ -13767,7 +13910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4841713887488226560}
   m_Layer: 0
-  m_Name: Teleporter
+  m_Name: "T\xE9l\xE9porteur 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13788,7 +13931,7 @@ Transform:
   m_Children:
   - {fileID: 5336760338065593106}
   - {fileID: 8343109589089555149}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1744795150}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5201697211795430992
 MeshRenderer:
@@ -14064,55 +14207,7 @@ SceneRoots:
   - {fileID: 2124524989}
   - {fileID: 494332832}
   - {fileID: 1744795150}
-  - {fileID: 907513859}
-  - {fileID: 527353517}
-  - {fileID: 1906634527}
-  - {fileID: 2004867749}
-  - {fileID: 215734285}
-  - {fileID: 704956043}
-  - {fileID: 975431070}
-  - {fileID: 1915749344}
-  - {fileID: 2016215876}
-  - {fileID: 654591650}
-  - {fileID: 109851612}
-  - {fileID: 158561976}
-  - {fileID: 303810706}
-  - {fileID: 1723589779}
-  - {fileID: 2065675611}
-  - {fileID: 1090649473}
-  - {fileID: 223287125}
-  - {fileID: 1737784025}
-  - {fileID: 488372010}
-  - {fileID: 919946339}
-  - {fileID: 798719893}
-  - {fileID: 440114577}
-  - {fileID: 2045083427}
-  - {fileID: 932171925}
-  - {fileID: 901965736}
-  - {fileID: 490717252}
-  - {fileID: 1404714668}
-  - {fileID: 630321537}
-  - {fileID: 1726906625}
-  - {fileID: 1841276033}
-  - {fileID: 496843153}
-  - {fileID: 1831500134}
-  - {fileID: 1760320514}
-  - {fileID: 244657953}
-  - {fileID: 745526501}
-  - {fileID: 2115992466}
-  - {fileID: 2054393244}
-  - {fileID: 4841713887488226560}
-  - {fileID: 1927823116}
-  - {fileID: 1149829699}
   - {fileID: 524099322}
-  - {fileID: 1994588309}
-  - {fileID: 1942057687}
-  - {fileID: 1635965115}
-  - {fileID: 1917610694}
-  - {fileID: 572088125}
-  - {fileID: 1146282317}
-  - {fileID: 610710418}
-  - {fileID: 1769001603}
   - {fileID: 1464004199}
   - {fileID: 977388936}
   - {fileID: 1889970747}
