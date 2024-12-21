@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 429010311}
   - component: {fileID: 429010310}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Bouton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,16 +342,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: c68c3e13eb9fc3a49b5904ead2a5b5db, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 470426146}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Scene Terrain
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &429010311
@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 470426144}
   - component: {fileID: 470426143}
   - component: {fileID: 470426142}
+  - component: {fileID: 470426146}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -496,6 +497,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &470426146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470426141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9474a39696c5a4a9d2159e867cd472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1019340603
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,7 +521,7 @@ GameObject:
   - component: {fileID: 1019340606}
   - component: {fileID: 1019340605}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Texte Bouton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
