@@ -1,52 +1,81 @@
 # TP2_Brunet_AlexandrePaulOligny
 
+Aperçu
+Ce projet présente une scène Unity utilisant divers assets pour créer un environnement immersif. Vous trouverez ci-dessous la liste des ressources utilisées ainsi que les attributions correspondantes.
+
+Assets
+Textures et Matériaux
 Simple Water Shader URP
-IgniteCoders
-https://assetstore.unity.com/packages/2d/textures-materials/water/simple-water-shader-urp-191449
-
-"Lighthouse" (https://skfb.ly/oxYyJ) by dylanheyes is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-"Pirate Ship" (https://skfb.ly/6Wq6v) by Oleg Muzyka is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+Par IgniteCoders : Un shader d’eau stylisé compatible avec Unity URP.
+Lien : https://assetstore.unity.com/packages/2d/textures-materials/water/simple-water-shader-urp-191449
 
 Free Stylized Skybox
-Yuki2022
-https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
+Par Yuki2022 : Une collection de textures de skybox stylisées.
+Lien : https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257
 
-Old bridge
-3D Model
-NoodlePoodle
-https://sketchfab.com/3d-models/old-bridge-293190e5169947c1a374a9ec850264d3
+Modèles 3D
+Lighthouse (Phare)
+Par Dylan Heyes, sous licence Creative Commons Attribution.
+Lien : https://skfb.ly/oxYyJ
+
+Pirate Ship (Navire pirate)
+Par Oleg Muzyka, sous licence Creative Commons Attribution.
+Lien : https://skfb.ly/6Wq6v
+
+Old Bridge (Vieux pont)
+Par NoodlePoodle : Un modèle détaillé de vieux pont.
+Lien : https://sketchfab.com/3d-models/old-bridge-293190e5169947c1a374a9ec850264d3
 
 Low Poly PBR Houses Exteriors FREE Pack
-Kassya
-https://assetstore.unity.com/packages/3d/props/exterior/low-poly-pbr-houses-exteriors-free-pack-266249
+Par Kassya : Un pack d’assets de maisons extérieures en low poly.
+Lien : https://assetstore.unity.com/packages/3d/props/exterior/low-poly-pbr-houses-exteriors-free-pack-266249
 
-Fountain Prop
-Thunderent
-https://assetstore.unity.com/packages/3d/fountain-prop-75912
+Fountain Prop (Fontaine)
+Par Thunderent : Un modèle de fontaine pour des scènes extérieures.
+Lien : https://assetstore.unity.com/packages/3d/fountain-prop-75912
 
-Simple Bench
-Marpa Studio
-https://assetstore.unity.com/packages/3d/props/simple-bench-297950
+Simple Bench (Banc simple)
+Par Marpa Studio : Un modèle minimaliste de banc.
+Lien : https://assetstore.unity.com/packages/3d/props/simple-bench-297950
 
-Simple, Low-Poly Decorative Plant Assets
-Ultrasonic
-https://assetstore.unity.com/packages/3d/vegetation/simple-low-poly-decorative-plant-assets-252714
+Simple, Low-Poly Decorative Plant Assets (Plantes décoratives en low poly)
+Par Ultrasonic : Un ensemble d’assets de plantes décoratives en low poly.
+Lien : https://assetstore.unity.com/packages/3d/vegetation/simple-low-poly-decorative-plant-assets-252714
 
-Medieval Windmill
-Polygrade
-https://assetstore.unity.com/packages/3d/medieval-windmill-89489
+Medieval Windmill (Moulin médiéval)
+Par Polygrade : Un modèle de moulin à vent d’inspiration médiévale.
+Lien : https://assetstore.unity.com/packages/3d/medieval-windmill-89489
 
-Lamppost
-MaxDragon
-https://assetstore.unity.com/packages/3d/environments/urban/lamppost-269488
+Lamppost (Lampadaire)
+Par MaxDragon : Un asset de lampadaire pour des décors urbains ou médiévaux.
+Lien : https://assetstore.unity.com/packages/3d/environments/urban/lamppost-269488
 
 Item Pack: Survival
-Supercyan
-https://assetstore.unity.com/packages/3d/props/item-pack-survival-131598
+Par Supercyan : Une collection d’objets sur le thème de la survie.
+Lien : https://assetstore.unity.com/packages/3d/props/item-pack-survival-131598
 
-Ocean Waves
-Sound Effect by <a href="https://pixabay.com/users/gikmultimedia-20862125/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250310">GIK Multimedia</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250310">Pixabay</a>
+Effets sonores
+Ocean Waves (Vagues de l’océan)
+Par GIK Multimedia sur Pixabay.
+Lien : https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=250310
 
-Wind Chimes
-Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=60654">freesound_community</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=60654">Pixabay</a>
+Wind Chimes (Carillons à vent)
+Par freesound_community sur Pixabay.
+Lien : https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=60654
+
+Windmill Cog Wheel (Rouage de moulin à vent)
+Un effet sonore mécanique de moulin à vent.
+Lien : https://pixabay.com/sound-effects/windmill-cog-wheel-56776/
+
+Small Wind (Petit vent)
+Un effet sonore de vent léger.
+Lien : https://pixabay.com/sound-effects/small-wind-272153/
+
+Licences et Attributions
+Tous les assets et effets sonores sont utilisés avec permission, conformément aux licences respectives. Veuillez consulter les liens pour connaître les conditions d’utilisation.
+
+
+-------------------------------
+Lien Youtube Projet:
+https://youtu.be/iyOiWWO4u4o
+-------------------------------
